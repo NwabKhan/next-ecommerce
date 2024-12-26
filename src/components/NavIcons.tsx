@@ -6,6 +6,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import CartModel from "./CartModel"
+import Image from "next/image"
 
 const NavIcons = () => {
 
@@ -24,8 +25,8 @@ setIsProfileOpen((prev)=>!prev)
   }
   return (
     <div className="flex items-center gap-4 xl:gap-6 relative">
-      <img
-      src="profile.png" 
+      <Image
+      src="/profile.png" 
       alt="" 
       width={22} 
       height={22} 
@@ -49,14 +50,14 @@ setIsProfileOpen((prev)=>!prev)
       height={22} 
       className="cursor-pointer"
       />
-      <div className="relative cursor-pointer">
-      <img 
-      src="cart.png" 
+    
+      <div className="relative cursor-pointer"   onClick={()=>setIsCartOpen((prev=>!prev))} >
+      <Image 
+      src="/cart.png" 
       alt="" 
       width={22} 
       height={22} 
       
-      onClick={()=>setIsCartOpen((prev=>!prev))}
       />
      
       <div className="absolute -top-4 -right-4 w-6 h-6 bg-Haseeb rounded-full text-white text-sm flex  justify-center items-center">2</div>

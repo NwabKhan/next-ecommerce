@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -16,11 +17,11 @@ const Footer = () => {
           <span className='font-semibold'>haseeb@gmail.com</span>
           <span className='font-semibold'>03301234567</span>
           <div className='flex gap-6'>
-            <img src='facebook.png' alt='' width={16} height={16} />
-            <img src='instagram.png' alt='' width={16} height={16} />
-            <img src='youtube.png' alt='' width={16} height={16} />
-            <img src='pinterest.png' alt='' width={16} height={16} />
-            <img src='x.png' alt='' width={16} height={16} />
+            <Image src='/facebook.png' alt='' width={16} height={16} />
+            <Image src='/instagram.png' alt='' width={16} height={16} />
+            <Image src='/youtube.png' alt='' width={16} height={16} />
+            <Image src='/pinterest.png' alt='' width={16} height={16} />
+            <Image src='/x.png' alt='' width={16} height={16} />
           </div>
         </div>
         {/* CENTER  */}
@@ -66,11 +67,11 @@ const Footer = () => {
           </div>
           <span className='font-semibold'>Scure payments</span>
           <div className='flex justify-between'>
-            <img src='discover.png' alt='' width={40} height={20} />
-            <img src='skrill.png' alt='' width={40} height={20} />
-            <img src='paypal.png' alt='' width={40} height={20} />
-            <img src='mastercard.png' alt='' width={40} height={20} />
-            <img src='visa.png' alt='' width={40} height={20} />
+            <Image src='/discover.png' alt='' width={40} height={20} />
+            <Image src='/skrill.png' alt='' width={40} height={20} />
+            <Image src='/paypal.png' alt='' width={40} height={20} />
+            <Image src='/mastercard.png' alt='' width={40} height={20} />
+            <Image src='/visa.png' alt='' width={40} height={20} />
           </div>
        
         </div>

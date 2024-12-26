@@ -1,6 +1,7 @@
 "use client"
 
 import { transform } from "next/dist/build/swc"
+import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
@@ -69,9 +70,10 @@ const Slider = () => {
 
                             {/* IMAGE CONTAINER  */}
                             <div className="h-1/2 xl:h-full xl:w-1/2 relative">
-                                <img
+                                <Image
                                     src={slide.img}
                                     alt=""
+                                    fill 
                                     sizes="100%"
                                     className="object-cover" />
                             </div>

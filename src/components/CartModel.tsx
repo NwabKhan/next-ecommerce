@@ -1,5 +1,7 @@
 "use client"
 
+import Image from "next/image";
+
 const CartModel = () => {
 
   // const cartItems = false;
@@ -23,8 +25,8 @@ const CartModel = () => {
           {/* ITEM 1 */}
          <div className="flex gap-4">
           
-          {/* <img src="https://images.pexels.com/photos/29276466/pexels-photo-29276466/free-photo-of-starry-night-over-snowy-norwegian-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={72} height={96} className="object-cover rounded-md"/>  */}
-          <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={72} height={96} className="object-cover rounded-md"/> 
+          {/* <Image src="https://images.pexels.com/photos/29276466/pexels-photo-29276466/free-photo-of-starry-night-over-snowy-norwegian-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" fill alt="" width={72} height={96} className="object-cover rounded-md"/>  */}
+          <Image src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt=""  width={72} height={96} className="object-cover rounded-md"/> 
           <div className="flex flex-col justify-between w-full">
             {/* TOP SECTION */}
             <div className="">
@@ -47,8 +49,8 @@ const CartModel = () => {
           {/* ITEM 2 */}
          <div className="flex gap-4">
           
-          {/* <img src="https://images.pexels.com/photos/29276466/pexels-photo-29276466/free-photo-of-starry-night-over-snowy-norwegian-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={72} height={96} className="object-cover rounded-md"/>  */}
-          <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={72} height={96} className="object-cover rounded-md"/> 
+          {/* <img src="https://images.pexels.com/photos/29276466/pexels-photo-29276466/free-photo-of-starry-night-over-snowy-norwegian-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" fill alt="" width={72} height={96} className="object-cover rounded-md"/>  */}
+          <Image src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="" width={72} height={96} className="object-cover rounded-md"/> 
           <div className="flex flex-col justify-between w-full">
             {/* TOP SECTION */}
             <div className="">

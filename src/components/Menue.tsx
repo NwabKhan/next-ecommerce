@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -7,7 +8,7 @@ const Menue = () => {
     const [open, setOpen] = useState(false);
   return (
     <div className="">
-      <img src="/menu.png"
+      <Image src="/menu.png"
         alt=""
         width={28} 
         height={28} 

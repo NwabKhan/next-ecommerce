@@ -3,6 +3,7 @@ import React from 'react'
 import Menue from './Menue'
 import SearchBar from './SearchBar'
 import NavIcons from './NavIcons'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
         {/* Left */}
         <div className='w-1/3 xl:w-1/2 flex items-center gap-12'>
         <Link href="/" className='flex items-center gap-3'>
-          <img src="logo.png" alt='logo' width={24} height={24} />
+          <Image src="/logo.png" alt='logo' width={24} height={24} />
           
             <div className='text-2xl tracking-wide'>HASEEB
 
