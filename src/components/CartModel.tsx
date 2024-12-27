@@ -50,7 +50,7 @@ const CartModel = () => {
          <div className="flex gap-4">
           
           {/* <img src="https://images.pexels.com/photos/29276466/pexels-photo-29276466/free-photo-of-starry-night-over-snowy-norwegian-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" fill alt="" width={72} height={96} className="object-cover rounded-md"/>  */}
-          <Image src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="" width={72} height={96} className="object-cover rounded-md"/> 
+          <Image src="https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=600"  alt="" width={72} height={96} className="object-cover rounded-md"/> 
           <div className="flex flex-col justify-between w-full">
             {/* TOP SECTION */}
             <div className="">
